@@ -16,9 +16,9 @@ body {
 .input {
   text-align: center;
   background: rgb(4, 0, 255);
-  height: 100%;
-  padding: 300px;
-  /* flex: 0 0 75% 0; */
+  /* height: 600px; */
+  padding: 30px;
+  border-radius: 16px;
 }
 
 input[type="text"] {
@@ -55,4 +55,12 @@ input[type="submit"]:active {
   box-shadow: 5px 5px;
 
   
+}
+
+.display {
+  background: white;
+  margin-top: 50px;
+  padding: 30px;
+  font-size: 2rem;
+  text-align: center;
 }
